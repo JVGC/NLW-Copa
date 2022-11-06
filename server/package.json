@@ -7,6 +7,9 @@
     "dev": "tsx watch src/server.ts",
     "dev:migrate": "npx prisma migrate dev"
   },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
